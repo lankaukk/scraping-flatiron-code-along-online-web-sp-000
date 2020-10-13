@@ -39,7 +39,7 @@ class Scraper
     course.description = post.css("p").text
   end
   
-  Scraper.new.print_courses
+
 end
 end
 
